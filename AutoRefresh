@@ -1,0 +1,3 @@
+function AutoRefresh() {  
+    SpreadsheetApp.getActive().getSheetByName('AutoRefresh').getRange(1, 1).setValue(Math.random());
+}
